@@ -147,7 +147,7 @@ main {
 }
 .general-about .profile-pic {
 	margin: 0em 1em 0em 0em;
-	height: 8em;
+	height: 9.7em;
 }
 .profile .left .mood {
 	margin-top: 1em;
@@ -453,3 +453,4 @@ nav .links a {font-size: max(0.95em, 11px);
 	font-family: "Lucida Sans Unicode";
 	color: #2f2b5c;
 }
+
