@@ -406,7 +406,7 @@ nav:after {
 	border-top: 2px solid #808080;
 }
 .profile .right .blurbs .heading h4:before{
-	content: "ðŸ’» ";
+	content: "";
 }
 .profile .right .comments-table{
 	height:300px;
@@ -437,8 +437,3 @@ nav .links a {font-size: max(0.95em, 11px);
 	text-shadow: 0 0 7px #808080;
 }
 .friends .heading a.more {color: white; font-weight: bold;}
-
-
-
-
-
