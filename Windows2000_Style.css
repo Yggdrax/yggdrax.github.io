@@ -454,9 +454,10 @@ nav .links a {font-size: max(0.95em, 11px);
 	color: #2f2b5c;
 }
 .online img {
-	content: content: url("https://www.cameronsworld.net/img/content/5/11.gif") " Online for now... ";
+	content: url("https://www.cameronsworld.net/img/content/5/11.gif") " Online for now... ";
 	animation-name: none;
 	visibility: visible;
 	height: auto;
 	width: auto;
 }
+
