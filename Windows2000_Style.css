@@ -8,7 +8,7 @@ https://layouts.spacehey.com/user?id=22975
 }
 
 body {
-	background-image: url('https://images.hdqwalls.com/wallpapers/windows-2000-5k-5r.jpg');
+	background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExem4wY2JqYms2NjdvdTZqMTc0ZHpycHd2anZyb29lc2JpeXZkcnZkeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PMDoR6PWow5Zi6QsG6/giphy.gif'), linear-gradient(180deg,rgba(96, 113, 232, 1) 50%, rgba(1, 24, 48, 1) 50%);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -74,7 +74,7 @@ nav .links {
 nav:before {
 	content: "SpaceHey Header";
 	display: block;
-	padding: 0.2em 1em 0.17em .5em;
+	padding: 0.3em 1em 0.2em .5em;
 	background: var(--blue-gradient);
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 	font-size: 1em;
@@ -103,12 +103,13 @@ nav:after {
 	pointer-events: none;
 }
 main:before {
-	content: url('https://i19.servimg.com/u/f19/20/29/10/30/13125110.gif'); /*Imagen de la esquina inferior derecha*/
+	content: url('https://i19.servimg.com/u/f19/20/29/10/30/13125111.gif'); /*Imagen de la esquina inferior derecha*/
 	position: fixed;
 	bottom: 0;
 	right: 0;
 	transform: translateX(-3vw) translateY(-6vh);
 	pointer-events: none;
+	z-index: 500;
 }
 main {
 	background: none;
@@ -165,7 +166,7 @@ main {
 	background-clip: padding-box;
 	content: "My Mood";
 	display: block;
-	padding: .2em 1em .17em .5em;
+	padding: 0.3em 1em 0.2em .5em;
 	/*border: 2px solid #1B44B8;*/
 	background: var(--blue-gradient);
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
@@ -188,7 +189,7 @@ nav:after {
 	position: absolute;
 	top: 0;
 	right: 0;
-	margin-top: .3em;
+	margin-top: .4em;
 	margin-right: .3em;
 }
 .left .contact {
@@ -291,7 +292,7 @@ nav:after {
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	padding: .2em 1em .17em .5em;
+	padding: 0.3em 1em 0.2em .5em;
 	background: var(--blue-gradient);
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 	font-size: 1em;
@@ -369,7 +370,7 @@ nav:after {
 	/*! text-shadow: 2px 2px 0px #000; */
 	/*border-radius: 10px 10px 0 0;*/
 	color: #FFF;
-	padding: .2em 1em .17em .5em;
+	padding: 0.3em 1em 0.2em .5em;
 	border-right: 2px solid #808080;
 	border-top: 2px solid #c0c0c0;
 	box-shadow: 2px 2px 0px #808080 inset, 0px 0px 0px #808080 inset;
@@ -391,7 +392,7 @@ nav:after {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	display: block;
-	padding: .17em 1em .17em .5em;
+	padding: 0.3em 1em 0.2em .5em;
 	/*border: 2px solid #1B44B8;*/
 	background: var(--blue-gradient);
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
@@ -435,4 +436,5 @@ nav .links a {font-size: max(0.95em, 11px);
 	text-shadow: 0 0 7px #808080;
 }
 .friends .heading a.more {color: white; font-weight: bold;}
+
 
