@@ -30,6 +30,11 @@ body:before {
 	pointer-events: none;
 	margin: 0 !important;
 	padding: 0 !important;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 @keyframes yourAnimation { 0.0% { opacity: 1; } 75% { opacity: 1; } 100% { opacity: 0; } }
 nav, footer {
@@ -427,5 +432,6 @@ nav .links a {font-size: max(0.95em, 11px);
 	text-shadow: 0 0 7px #808080;
 }
 .friends .heading a.more {color: white; font-weight: bold;}
+
 
 
