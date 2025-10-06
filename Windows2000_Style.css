@@ -447,11 +447,16 @@ nav .links a {font-size: max(0.95em, 11px);
 	border-top: 2px solid #c0c0c0;
 }
 .online {
+	visibility: hidden;
 	margin:auto;
 	padding-bottom: 5px;
-	content: url("https://www.cameronsworld.net/img/content/5/11.gif") " ONLINE ";
 	font-family: "Lucida Sans Unicode";
 	color: #2f2b5c;
 }
-
-
+.online img {
+	content: content: url("https://www.cameronsworld.net/img/content/5/11.gif") " Online for now... ";
+	animation-name: none;
+	visibility: visible;
+	height: auto;
+	width: auto;
+}
