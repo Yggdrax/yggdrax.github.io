@@ -457,7 +457,7 @@ nav .links a {font-size: max(0.95em, 11px);
 	content: url("https://www.cameronsworld.net/img/content/5/11.gif") " Online for now... ";
 	animation-name: none;
 	visibility: visible;
-	height: auto;
-	width: auto;
+	max-height: 32px;
 }
+
 
