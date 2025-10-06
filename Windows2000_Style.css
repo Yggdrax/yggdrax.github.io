@@ -458,8 +458,6 @@ nav .links a {font-size: max(0.95em, 11px);
 	animation-name: none;
 	visibility: visible;
 	max-height: 32px;
+	margin-right: 0px;
+	transform: translateY(4px);
 }
-
-
-
-
