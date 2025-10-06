@@ -147,6 +147,7 @@ main {
 }
 .general-about .profile-pic {
 	margin: 0em 1em 0em 0em;
+	height: 8em;
 }
 .profile .left .mood {
 	margin-top: 1em;
@@ -437,3 +438,11 @@ nav .links a {font-size: max(0.95em, 11px);
 	text-shadow: 0 0 7px #808080;
 }
 .friends .heading a.more {color: white; font-weight: bold;}
+.general-about .profile-pic img {
+	max-width: 100px;
+	max-height: 100px;
+	border-left: 2px solid #c0c0c0;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	border-top: 2px solid #c0c0c0;
+}
