@@ -453,11 +453,12 @@ nav .links a {font-size: max(0.95em, 11px);
 	font-family: "Lucida Sans Unicode";
 	color: #2f2b5c;
 }
-.online img {
+.online img::before {
 	content: url("https://www.cameronsworld.net/img/content/5/11.gif") " Online for now... ";
 	animation-name: none;
 	visibility: visible;
 	max-height: 32px;
 }
+
 
 
