@@ -8,7 +8,7 @@ https://layouts.spacehey.com/user?id=22975
 }
 
 body {
-	background-image: url('https://external-media.spacehey.net/media/s8AVXr9gdRL9OOalP2yV8x4gun-8xpxde1dG_wa88Oyc=/https://images.hdqwalls.com/wallpapers/windows-2000-5k-5r.jpg');
+	background-image: url('https://images.hdqwalls.com/wallpapers/windows-2000-5k-5r.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -23,10 +23,9 @@ body:before {
 	top: 50%;
 	left: 50%;
 	z-index: 100;
-	background-image: url('https://external-media.spacehey.net/media/sFV1D_Pzs5bhs7W5LOAVP8DbxyxZohDqwzeR-OpFYafA=/http://www.therestartpage.com/OS/media/win2000/starting_2000.gif');
-	background-size: contain;
+	background-image: url('http://www.therestartpage.com/OS/media/win2000/starting_2000.gif');
+	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: center center;
 	background-color: #3A6EA5;
 	animation: yourAnimation 3s ease 0s 1 normal forwards;
 	pointer-events: none;
@@ -83,7 +82,7 @@ nav:before {
 	box-shadow: 2px 2px 0px #808080 inset, -2px 0px 0px #808080 inset;
 }
 nav:after {
-	content: url("https://external-media.spacehey.net/media/sN59zmC-rL6LGBCvxPgsLg5aHkIFjiivCKYFcRDIjDVw=/https://i19.servimg.com/u/f19/20/29/10/30/firma_10.png");
+	content: url("https://i19.servimg.com/u/f19/20/29/10/30/firma_10.png");
 	display: inline-block;
 	padding: .4em .6em;
 	width: fit-content;
@@ -172,7 +171,7 @@ main {
 	box-shadow: 2px 2px 0px #808080 inset, 0px 0px 0px #808080 inset;
 }
 nav:after {
-	content: url("https://external-media.spacehey.net/media/sN59zmC-rL6LGBCvxPgsLg5aHkIFjiivCKYFcRDIjDVw=/https://i19.servimg.com/u/f19/20/29/10/30/firma_10.png");
+	content: url("https://i19.servimg.com/u/f19/20/29/10/30/firma_10.png");
 	display: inline-block;
 	padding: .1em 0em;
 	width: fit-content;
@@ -205,8 +204,8 @@ nav:after {
 	/*border-radius: 0 40px 50px 0;*/
 	align-items: center;
 	/*-webkit-filter: drop-shadow(0px 0px 7px #000);*/
-	margin-right: 1em;
-	transform: scale(1) translateX(0.6em) translateY(5px);
+	margin-right: 0em;
+	transform: scale(1) translateX(-0.2em) translateY(5px);
 	height: 24px;
 }
 .profile .contact .heading h4 {
@@ -219,7 +218,7 @@ nav:after {
 	box-shadow: 0px 2px 0px #e0e0e0 inset, -2px -2px 0px #808080 inset;
 }
 .profile .contact .heading h4:after {
-	content: url("https://external-media.spacehey.net/media/sZAF2YyIqN1wRW38_Bin3lbeC1nqBPO_jK8t346VaiDU=/https://i.ibb.co/cXwHGNNr/w2k-Start.png");
+	content: url("https://i.ibb.co/cXwHGNNr/w2k-Start.png");
 	padding-right: 0;
 	white-space: nowrap;
 }
@@ -427,3 +426,4 @@ nav .links a {font-size: max(0.95em, 11px);
 	text-shadow: 0 0 7px #808080;
 }
 .friends .heading a.more {color: white; font-weight: bold;}
+
