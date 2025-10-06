@@ -426,3 +426,4 @@ nav .links a {font-size: max(0.95em, 11px);
 	color: black;
 	text-shadow: 0 0 7px #808080;
 }
+.friends .heading a.more {color: white; font-weight: bold;}
