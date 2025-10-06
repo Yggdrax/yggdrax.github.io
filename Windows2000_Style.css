@@ -447,7 +447,6 @@ nav .links a {font-size: max(0.95em, 11px);
 	border-top: 2px solid #c0c0c0;
 }
 .online {
-	visibility: hidden;
 	margin:auto;
 	padding-bottom: 5px;
 	font-family: "Lucida Sans Unicode";
@@ -461,3 +460,4 @@ nav .links a {font-size: max(0.95em, 11px);
 	margin-right: 0px;
 	transform: translateY(4px);
 }
+
