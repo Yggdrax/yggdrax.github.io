@@ -20,15 +20,16 @@ body:before {
 	width: 100vw;
 	display: block;
 	position: fixed;
-	top: 50%;
-	left: 50%;
 	z-index: 100;
 	background-image: url('http://www.therestartpage.com/OS/media/win2000/starting_2000.gif');
-	background-size: 100%;
+	background-size: 50vh;
 	background-repeat: no-repeat;
 	background-color: #3A6EA5;
+	background-position: center center;
 	animation: yourAnimation 3s ease 0s 1 normal forwards;
 	pointer-events: none;
+	margin: 0 !important;
+	padding: 0 !important;
 }
 @keyframes yourAnimation { 0.0% { opacity: 1; } 75% { opacity: 1; } 100% { opacity: 0; } }
 nav, footer {
@@ -426,4 +427,5 @@ nav .links a {font-size: max(0.95em, 11px);
 	text-shadow: 0 0 7px #808080;
 }
 .friends .heading a.more {color: white; font-weight: bold;}
+
 
