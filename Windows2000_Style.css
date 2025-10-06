@@ -8,7 +8,7 @@ https://layouts.spacehey.com/user?id=22975
 }
 
 body {
-	background-image: url('https://images.hdqwalls.com/wallpapers/windows-2000-5k-5r.jpg');
+	background-image: url('https://external-media.spacehey.net/media/s8AVXr9gdRL9OOalP2yV8x4gun-8xpxde1dG_wa88Oyc=/https://images.hdqwalls.com/wallpapers/windows-2000-5k-5r.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -23,7 +23,7 @@ body:before {
 	top: 50%;
 	left: 50%;
 	z-index: 100;
-	background-image: url('http://www.therestartpage.com/OS/media/win2000/starting_2000.gif');
+	background-image: url('https://external-media.spacehey.net/media/sFV1D_Pzs5bhs7W5LOAVP8DbxyxZohDqwzeR-OpFYafA=/http://www.therestartpage.com/OS/media/win2000/starting_2000.gif');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -83,7 +83,7 @@ nav:before {
 	box-shadow: 2px 2px 0px #808080 inset, -2px 0px 0px #808080 inset;
 }
 nav:after {
-	content: url("https://i19.servimg.com/u/f19/20/29/10/30/firma_10.png");
+	content: url("https://external-media.spacehey.net/media/sN59zmC-rL6LGBCvxPgsLg5aHkIFjiivCKYFcRDIjDVw=/https://i19.servimg.com/u/f19/20/29/10/30/firma_10.png");
 	display: inline-block;
 	padding: .4em .6em;
 	width: fit-content;
@@ -172,7 +172,7 @@ main {
 	box-shadow: 2px 2px 0px #808080 inset, 0px 0px 0px #808080 inset;
 }
 nav:after {
-	content: url("https://i19.servimg.com/u/f19/20/29/10/30/firma_10.png");
+	content: url("https://external-media.spacehey.net/media/sN59zmC-rL6LGBCvxPgsLg5aHkIFjiivCKYFcRDIjDVw=/https://i19.servimg.com/u/f19/20/29/10/30/firma_10.png");
 	display: inline-block;
 	padding: .1em 0em;
 	width: fit-content;
@@ -190,13 +190,14 @@ nav:after {
 	left: 0;
 	width: 100%;
 	margin: 0;
-	padding: 1px 0px 0px 0px;
+	/*! padding: 1px 0 0 0; */
 	z-index: 10;
 }
 .left .contact {
 	border: 0;
 	background: #c0c0c0;
 	box-shadow: 0px 2px 0px #e0e0e0 inset;
+	height: 32px;
 }
 .profile .contact .heading {
 	background: #c0c0c0;
@@ -204,24 +205,21 @@ nav:after {
 	/*border-radius: 0 40px 50px 0;*/
 	align-items: center;
 	/*-webkit-filter: drop-shadow(0px 0px 7px #000);*/
-	margin-right: -1em;
-	border-left: 2px solid #e0e0e0;
-	border-right: 2px solid #000;
-	border-bottom: 2px solid #000;
-	box-shadow: 0px 2px 0px #e0e0e0 inset, -2px -2px 0px #808080 inset;
-	transform: scale(0.8) translateX(-0.5em) translateY(.1em);
+	margin-right: 1em;
+	transform: scale(1) translateX(0.6em) translateY(5px);
+	height: 24px;
 }
 .profile .contact .heading h4 {
 	font-size: 0;
 	color: black;
+	padding: 5px;
+	border-left: 2px solid #e0e0e0;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	box-shadow: 0px 2px 0px #e0e0e0 inset, -2px -2px 0px #808080 inset;
 }
 .profile .contact .heading h4:after {
 	content: url("https://external-media.spacehey.net/media/sZAF2YyIqN1wRW38_Bin3lbeC1nqBPO_jK8t346VaiDU=/https://i.ibb.co/cXwHGNNr/w2k-Start.png");
-	font-size: 1.4rem;
-	/*! font-family: Tahoma; */
-	/*! font-weight: bold; */
-	/*font-style: italic;
-	text-shadow: 2px 2px 5px #0007;*/
 	padding-right: 0;
 	white-space: nowrap;
 }
@@ -238,7 +236,7 @@ nav:after {
 	/*border: 1px solid #003c74;*/
 	background: #c0c0c0;
 	/*border-radius: 3px;*/
-	padding: .45em 0em .45em .5em;
+	padding: .35em 0em 0.35em .5em;
 	margin-left: .3em;
 	font-weight: normal;
 	color: #000;
