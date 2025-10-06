@@ -446,3 +446,9 @@ nav .links a {font-size: max(0.95em, 11px);
 	border-bottom: 2px solid #000;
 	border-top: 2px solid #c0c0c0;
 }
+.online {
+	margin:auto;
+	padding-bottom: 5px;
+	content: url('https://i.ibb.co/sCLNcck/ezgif-5-5861b4e688.png');
+	font-family: "Lucida Sans Unicode";
+}
