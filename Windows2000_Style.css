@@ -439,8 +439,8 @@ nav .links a {font-size: max(0.95em, 11px);
 }
 .friends .heading a.more {color: white; font-weight: bold;}
 .general-about .profile-pic img {
-	max-width: 100px;
-	max-height: 100px;
+	max-width: 120px;
+	max-height: 120px;
 	border-left: 2px solid #c0c0c0;
 	border-right: 2px solid #000;
 	border-bottom: 2px solid #000;
@@ -453,4 +453,3 @@ nav .links a {font-size: max(0.95em, 11px);
 	font-family: "Lucida Sans Unicode";
 	color: #2f2b5c;
 }
-
