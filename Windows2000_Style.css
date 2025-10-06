@@ -103,7 +103,7 @@ nav:after {
 	pointer-events: none;
 }
 main:before {
-	content: url('https://www.cameronsworld.net/img/content/16/12.gif'); /*Imagen de la esquina inferior derecha*/
+	content: url('https://i19.servimg.com/u/f19/20/29/10/30/13125110.gif'); /*Imagen de la esquina inferior derecha*/
 	position: fixed;
 	bottom: 0;
 	right: 0;
@@ -435,3 +435,4 @@ nav .links a {font-size: max(0.95em, 11px);
 	text-shadow: 0 0 7px #808080;
 }
 .friends .heading a.more {color: white; font-weight: bold;}
+
