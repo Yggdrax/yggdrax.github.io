@@ -110,7 +110,7 @@ main:before {
 	right: 0;
 	transform: translateX(-3vw) translateY(-6vh);
 	pointer-events: none;
-	z-index: 500;
+	z-index: 90;
 }
 main {
 	background: none;
@@ -437,6 +437,7 @@ nav .links a {font-size: max(0.95em, 11px);
 	text-shadow: 0 0 7px #808080;
 }
 .friends .heading a.more {color: white; font-weight: bold;}
+
 
 
 
