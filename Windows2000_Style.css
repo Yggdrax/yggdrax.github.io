@@ -472,5 +472,16 @@ nav .links a {font-size: max(0.95em, 11px);
 .table-section:not(:last-child) tr:nth-child(3), .table-section:not(:last-child) tr:nth-child(4), .table-section:not(:last-child) tr:nth-child(5), .table-section:not(:last-child) tr:nth-child(6) {
     display: none !important;
 }
+.profile .friends .person {
+	margin: 0px 0px 0px 13px;
+}
+.profile .friends .person img:not(.icon) {
+	border-left: 2px solid #c0c0c0;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	border-top: 2px solid #c0c0c0;
+	min-height: 95px;
+	object-fit: cover;
+}
 
 
