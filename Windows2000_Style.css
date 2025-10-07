@@ -358,6 +358,7 @@ nav:after {
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	margin-left: 1em;
 	margin-top: .9em;
+	font-size: .97em;
 }
 .profile .right .blog-preview:before {
 	-moz-background-clip: padding;
@@ -483,5 +484,6 @@ nav .links a {font-size: max(0.95em, 11px);
 	min-height: 95px;
 	object-fit: cover;
 }
+
 
 
