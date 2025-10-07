@@ -459,4 +459,5 @@ nav .links a {font-size: max(0.95em, 11px);
 	margin-right: 0px;
 	transform: translateY(4px);
 }
-.hideobj {height: 0;}
+.hideobj {height: 0 !important;}
+.profile .blurbs .section p {margin: 0;}
