@@ -387,7 +387,7 @@ nav:after {
 	border-right: 2px solid #000;
 	border-bottom: 2px solid #000;
 	border-top: 2px solid #c0c0c0;
-	box-shadow: 2px 2px 0px #808080 inset, -2px -2px 0px #808080 inset;
+	box-shadow: 5px 8px 10px #0006, 2px 2px 0px #808080 inset, -2px -2px 0px #808080 inset;
 }
 .profile .right .blurbs .heading, .profile .right .friends .heading{
 	-moz-background-attachment-clip: padding;
@@ -472,3 +472,4 @@ nav .links a {font-size: max(0.95em, 11px);
 .table-section:not(:last-child) tr:nth-child(3), .table-section:not(:last-child) tr:nth-child(4), .table-section:not(:last-child) tr:nth-child(5), .table-section:not(:last-child) tr:nth-child(6) {
     display: none !important;
 }
+
