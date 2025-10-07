@@ -465,11 +465,12 @@ nav .links a {font-size: max(0.95em, 11px);
   max-width: 100%;
   padding: 0px 1px 2px 0px;
 }
-.table-section:nth-last-child(2) .details-table tr:nth-child(3){display:none !important;}
-.table-section:nth-last-child(2) .details-table tr:nth-child(4){display:none !important;}
-.table-section:nth-last-child(2) .details-table tr:nth-child(5){display:none !important;}
-.table-section:nth-last-child(2) .details-table tr:nth-child(6){display:none !important;}
+.details-table tr:nth-child(3){display:none !important;}
+.details-table tr:nth-child(4){display:none !important;}
+.details-table tr:nth-child(5){display:none !important;}
+.details-table tr:nth-child(6){display:none !important;}
 .table-section:not(:last-child) tr:nth-child(3), .table-section:not(:last-child) tr:nth-child(4), .table-section:not(:last-child) tr:nth-child(5), .table-section:not(:last-child) tr:nth-child(6) {
     display: none !important;
 }
+
 
