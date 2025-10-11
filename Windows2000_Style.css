@@ -8,7 +8,7 @@ https://layouts.spacehey.com/user?id=22975
 }
 
 body {
-	background-image: linear-gradient(180deg,rgba(47, 43, 92, .3) 0%, rgba(152, 64, 184, 0) 45%, rgb(128, 141, 179) 100%), linear-gradient(180deg,rgb(152, 64, 184) 0%, rgba(128, 141, 179, 0) 45%), url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExem4wY2JqYms2NjdvdTZqMTc0ZHpycHd2anZyb29lc2JpeXZkcnZkeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PMDoR6PWow5Zi6QsG6/giphy.gif'), linear-gradient(180deg,rgb(96, 113, 232) 50%, rgb(1, 24, 48) 50%), url('https://i.ibb.co/G4MswNtB/lensflare.png');
+	background-image: linear-gradient(180deg,rgba(47, 43, 92, .3) 0%, rgba(152, 64, 184, 0) 45%, rgb(128, 141, 179) 100%), linear-gradient(180deg,rgb(152, 64, 184) 0%, rgba(128, 141, 179, 0) 45%), url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExem4wY2JqYms2NjdvdTZqMTc0ZHpycHd2anZyb29lc2JpeXZkcnZkeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PMDoR6PWow5Zi6QsG6/giphy.gif'), linear-gradient(180deg,rgb(96, 113, 232) 50%, rgb(1, 24, 48) 50%);
 	background-size: 60vh;
 	background-position: center;
 	background-attachment: fixed;
@@ -501,6 +501,7 @@ nav .links a {font-size: max(0.95em, 11px);
 	background-color: rgba(255,255,255,0.6);
 	background-blend-mode: lighten;
 }
+
 
 
 
