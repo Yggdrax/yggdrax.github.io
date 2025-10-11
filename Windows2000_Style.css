@@ -475,11 +475,11 @@ nav .links a {font-size: max(0.95em, 11px);
 }
 .profile .friends .person {
 	width: 105px !important;
-	margin: 0px 0px 0px 13px !important;
+	margin: 0px 0px 0px 14px !important;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	font-size: .8em;
+	font-size: 1em;
 }
 .profile .friends .person img:not(.icon) {
 	border-left: 2px solid #c0c0c0;
@@ -501,5 +501,6 @@ nav .links a {font-size: max(0.95em, 11px);
 	background-color: rgba(255,255,255,0.6);
 	background-blend-mode: lighten;
 }
+
 
 
