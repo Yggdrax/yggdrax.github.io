@@ -475,6 +475,7 @@ nav .links a {font-size: max(0.95em, 11px);
 }
 }
 .profile .friends .person {
+	width: 105px;
 	margin: 0px 0px 0px 13px;
 	white-space: nowrap;
 	overflow: hidden;
@@ -498,6 +499,7 @@ nav .links a {font-size: max(0.95em, 11px);
 	background-position: right bottom;
 	font-size: .8em !important;
 }
+
 
 
 
