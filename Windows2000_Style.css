@@ -44,7 +44,7 @@ nav, footer {
 	box-shadow: 2px 2px 0px #FFFFFF inset, -2px -2px 0px #808080 inset, 5px 8px 10px #0006;
 }
 footer{
-	margin-bottom:3rem;
+	margin-bottom:4rem;
 }
 .logout-btn {color: black;}
 .logout-btn:hover, .logout-btn:active {color: black;}
@@ -473,11 +473,13 @@ nav .links a {font-size: max(0.95em, 11px);
 .table-section:not(:last-child) tr:nth-child(3), .table-section:not(:last-child) tr:nth-child(4), .table-section:not(:last-child) tr:nth-child(5), .table-section:not(:last-child) tr:nth-child(6) {
     display: none !important;
 }
+}
 .profile .friends .person {
 	margin: 0px 0px 0px 13px;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	font-size: .8em;
 }
 .profile .friends .person img:not(.icon) {
 	border-left: 2px solid #c0c0c0;
@@ -489,4 +491,7 @@ nav .links a {font-size: max(0.95em, 11px);
 	max-width: 65px;
 	max-height: 65px;
 	object-fit: cover;
+}
+.friends-grid {
+	background-image: url('https://i.ibb.co/ccz39fyz/ie.png')
 }
