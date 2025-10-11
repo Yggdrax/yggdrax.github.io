@@ -492,10 +492,13 @@ nav .links a {font-size: max(0.95em, 11px);
 	max-height: 65px;
 	object-fit: cover;
 }
-/*.friends-grid {
+.friends-grid {
 	background-image: url("https://i.ibb.co/ccz39fyz/ie.png")
 	background-repeat: no-repeat;
-}*/
+	background-position: right bottom;
+	font-size: .8em !important;
+}
+
 
 
 
