@@ -473,7 +473,6 @@ nav .links a {font-size: max(0.95em, 11px);
 .table-section:not(:last-child) tr:nth-child(3), .table-section:not(:last-child) tr:nth-child(4), .table-section:not(:last-child) tr:nth-child(5), .table-section:not(:last-child) tr:nth-child(6) {
     display: none !important;
 }
-}
 .profile .friends .person {
 	width: 105px;
 	margin: 0px 0px 0px 13px;
@@ -499,3 +498,4 @@ nav .links a {font-size: max(0.95em, 11px);
 	background-position: right bottom;
 	font-size: .8em !important;
 }
+
