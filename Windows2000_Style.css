@@ -474,8 +474,8 @@ nav .links a {font-size: max(0.95em, 11px);
     display: none !important;
 }
 .profile .friends .person {
-	width: 105px;
-	margin: 0px 0px 0px 13px;
+	width: 105px !important;
+	margin: 0px 0px 0px 13px !important;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -495,7 +495,11 @@ nav .links a {font-size: max(0.95em, 11px);
 .friends-grid {
 	background-image: url("https://i.ibb.co/ccz39fyz/ie.png");
 	background-repeat: no-repeat;
-	background-position: right bottom;
+	background-position: 93% 93%;
 	font-size: .8em !important;
+	background-size: 13vh;
+	background-color: rgba(255,255,255,0.6);
+	background-blend-mode: lighten;
 }
+
 
